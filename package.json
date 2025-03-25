@@ -19,7 +19,15 @@
     "snippets": [
       {
         "language": "vue",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/vue-base.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-ts-js.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/vue-ts-js.code-snippets"
       }
     ]
   }

@@ -1,0 +1,52 @@
+{
+  "vue-props": {
+    "prefix": "vprops",
+    "body": [
+      "const props = defineProps<{",
+      "  $1",
+      "}>()",
+    ],
+    "description": "Создание шаблона для пропсов",
+  },
+  "vue-emits": {
+    "prefix": "vemits",
+    "body": [
+      "const emit = defineEmits<{",
+      "  (e: '$1'): void",
+      "}>()",
+    ],
+    "description": "Создание шаблона для эмитов",
+  },
+  "vue-mount": {
+    "prefix": "vm",
+    "body": [
+      "onMounted(() => {",
+      "  $1",
+      "})",
+    ],
+    "description": "Создание шаблона для onMounted",
+  },
+  "vue-unmount": {
+    "prefix": "vum",
+    "body": [
+      "onUnmounted(() => {",
+      "  $1",
+      "})",
+    ],
+    "description": "Создание шаблона для onMounted",
+  },
+  "vue-route": {
+    "prefix": "vrt",
+    "body": [
+      "const route = useRoute()$1",
+    ],
+    "description": "Создание route",
+  },
+  "vue-router": {
+    "prefix": "vrtr",
+    "body": [
+      "const router = useRouter()$1",
+    ],
+    "description": "Создание router",
+  },
+}
