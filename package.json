@@ -1,0 +1,22 @@
+{
+  "name": "vue-yog-snippets",
+  "displayName": "vue-yog-snippets",
+  "description": "",
+  "version": "0.0.3",
+  "publisher": "yogurt",
+  "icon": "assets/images/icon.png",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
