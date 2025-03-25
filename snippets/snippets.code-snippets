@@ -66,6 +66,6 @@
     "body": [
       "const router = useRouter()$1",
     ],
-    "description": "Создание route"
+    "description": "Создание router"
   },
 }
