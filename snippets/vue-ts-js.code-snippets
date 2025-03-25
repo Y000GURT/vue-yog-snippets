@@ -1,6 +1,6 @@
 {
   "vue-props": {
-    "prefix": "vprops",
+    "prefix": "vpr",
     "body": [
       "const props = defineProps<{",
       "  $1",
@@ -9,7 +9,7 @@
     "description": "Создание шаблона для пропсов",
   },
   "vue-emits": {
-    "prefix": "vemits",
+    "prefix": "vem",
     "body": [
       "const emit = defineEmits<{",
       "  (e: '$1'): void",
