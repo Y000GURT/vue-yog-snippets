@@ -17,6 +17,30 @@
     ],
     "description": "Создание шаблона для эмитов",
   },
+
+  "vue-watch": {
+    "prefix": "vw",
+    "body": [
+      "watch($1 , () => {",
+      "  ",
+      "})"
+    ],
+    "description": "Создание шаблона для watch"
+  },
+
+  "vue-watch-ref-prop": {
+    "prefix": "vwrp",
+    "body": [
+      "watch(",
+      "  () => $1",
+      "  (newValue) => {",
+      "    ",
+      "  }",
+      ")",
+    ],
+    "description": "Создание шаблона для watch, который отслеживает свойства ref"
+  },
+
   "vue-mount": {
     "prefix": "vm",
     "body": [
