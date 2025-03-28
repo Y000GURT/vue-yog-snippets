@@ -2,7 +2,7 @@
   "name": "vue-yog-snippets",
   "displayName": "vue-yog-snippets",
   "description": "",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "publisher": "yogurt",
   "icon": "assets/images/icon.png",
   "engines": {

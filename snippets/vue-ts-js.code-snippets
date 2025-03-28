@@ -11,7 +11,7 @@
   "vue-emits": {
     "prefix": "vem",
     "body": [
-      "const emit = defineEmits<{",
+      "const emits = defineEmits<{",
       "  (e: '$1'): void",
       "}>()",
     ],
