@@ -1,0 +1,15 @@
+{
+  "create-class": {
+  "prefix": "ccl",
+  "body": [
+   "export class MyClassName$1 implements MyClassFieldsInterface$2 {",
+   "  myClassField1$3: any$4;",
+   "",
+   "  constructor(dataForClassFields$5: dataForClassFieldsInterface$6) {",
+   "    this.myClassField1$3 = dataForClassFields$5.data$8;",
+   "  }",
+   "}"
+  ],
+  "description": "Шпаргалка для написания классов"
+ }
+}

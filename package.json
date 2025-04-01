@@ -2,7 +2,7 @@
   "name": "vue-yog-snippets",
   "displayName": "vue-yog-snippets",
   "description": "",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "publisher": "yogurt",
   "icon": "assets/images/icon.png",
   "engines": {
@@ -27,7 +27,7 @@
       },
       {
         "language": "javascript",
-        "path": "./snippets/vue-ts-js.code-snippets"
+        "path": "./snippets/ts-js.code-snippets"
       }
     ]
   }
