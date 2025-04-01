@@ -34,7 +34,7 @@
         "path": "./snippets/vue-ts-js.code-snippets"
       },
       {
-        "language": "javascript",
+        "language": "typescript",
         "path": "./snippets/ts-js.code-snippets"
       }
     ]

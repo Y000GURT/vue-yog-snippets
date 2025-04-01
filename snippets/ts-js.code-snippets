@@ -1,6 +1,6 @@
 {
   "create-class": {
-  "prefix": "ccl",
+  "prefix": "ycl",
   "body": [
    "export class MyClassName$1 implements MyClassFieldsInterface$2 {",
    "  myClassField1$3: any$4;",
