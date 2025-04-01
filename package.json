@@ -15,6 +15,14 @@
   "categories": [
     "Snippets"
   ],
+  "scripts": {
+    "bump-patch": "npm version patch",
+    "bump-minor": "npm version minor",
+    "bump-major": "npm version major",
+    "build": "npm run bump-patch && vsce package",
+    "build-minor": "npm run bump-minor && vsce package",
+    "build-major": "npm run bump-major && vsce package"
+  },
   "contributes": {
     "snippets": [
       {
